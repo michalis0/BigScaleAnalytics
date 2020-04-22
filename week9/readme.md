@@ -10,3 +10,7 @@ Also we would recommend you to watch this nice <a href="https://youtu.be/mqhxxee
 2. How to pass parameters
 3. Difference between GET and POST
 4. Build a web service using Flask
+
+## Deploying a Flask Application to Azure App Service
+
+https://www.youtube.com/watch?v=K_RTlbOOCts&t=5s
