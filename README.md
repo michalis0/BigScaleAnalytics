@@ -9,5 +9,8 @@ Repository for the Big-Scale Analytics course - spring 2020
 - Week 6: Entity Resolution
 - Week 7: Elasticsearch 1
 - Week 8: Elasticsearch 2
-
+- Week 9: Building a web service with Python Flask
+- Week 10: Association Rules
+- Week 11: Docker 1
+- Week 12: Docker 2
 
