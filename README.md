@@ -1,5 +1,5 @@
 # Big-Scale Analytics (UNIL)
-Repository for the Big-Scale Analytics course - spring 2020
+Repository for the Big-Scale Analytics Course - University of Lausanne
 
 - Week 1: Introduction to cloud based services
 - Week 2: SQL on Python (Python+SQLite)
