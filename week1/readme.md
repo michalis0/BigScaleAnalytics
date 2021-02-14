@@ -5,3 +5,12 @@ In this week we are going to have a brief overview of what cloud based services 
 We are going to use MS Azure throughout the semester, so make sure that you make an account and get the student subscription at the end of this week. Once you make an account, try to explore the different features you see in the Azure portal, which is basically a user interface.
 
 **Highly recommended: We incourage you to check https://docs.microsoft.com/en-us/learn/ , it is a rich resource to learn how to use different services in MS Azure**
+
+
+Walkthroughs & Exercises:
+
+- **Storage Bucket in Google Cloud:** Go to storage; create a bucket; upload a CSV from your laptop; change the reading permissions so that it's accessible from everyrone (Public); access the csv file from the browser; change back the permissions.
+
+- **Create a simple cloud function:** Go to Google Cloud Dashboard; Compute>Cloud Functions; Create a simple function in python that accepts one parameter called `company_stock_name` and calls the external API using that parameter in the value of the parameter symbol:
+`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo`
+Return the result of that call with the value for the stock of the company (eg MSFT, ZM, etc)
