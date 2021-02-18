@@ -1,22 +1,33 @@
-# Introduction to Cloud Services
+# Introduction to cloud services
 
-## Goals:
+Welcome to the first BSA lab! In this week, we will give you a brief overview of what cloud-based services can offer. More specifically, we will look into **Microsoft Azure** and **Google Cloud**, two of the most popular cloud services platforms.
 
-- Create an account at Microsoft Azure
-- Create an account in [Google Cloud](https://cloud.google.com). **Note:** For that you will need to put in your credit card but you won't be charged. It's just to verify that you are not a bot. You will get $300 credit for free which you can use for 90 days.
-- Do some simple exercises using the Cloud
+## Goals
 
-In this week we are going to have a brief overview of what cloud based services are. Specifically, we will look into Microsoft Azure, one of the most used cloud services, and get to know many services that Azure provides. Later on, we want you to create an account on MS Azure and register for a student subscription. You will get a 100$ credit for one year with the student subscription.
+* Create an account on [Microsoft Azure](https://azure.microsoft.com/en-us/free/students/) and get a student subscription (you will receive a free $100 credit for one year).
+* Create an account on [Google Cloud](https://cloud.google.com). **Note**: For that, you will need to enter your credit card information, but you won't be charged. It is just to verify that you are not a bot. You will receive a free $300 credit valid for one year.
+* Do some simple exercises using the cloud.
 
-We are going to use MS Azure throughout the semester, so make sure that you make an account and get the student subscription at the end of this week. Once you make an account, try to explore the different features you see in the Azure portal, which is basically a user interface.
+You are going to use these services all throughout the semester, so make sure that you have created your accounts by the end of the week. After having made an account, try to explore the various features you see in Azure and Google Cloud.
 
-**Highly recommended: We incourage you to check https://docs.microsoft.com/en-us/learn/ , it is a rich resource to learn how to use different services in MS Azure**
+**Highly recommended**: If at any point you feel lost while using these services, we encourage you to look at the documentation provided by [Microsoft](https://docs.microsoft.com/en-us/learn/) and [Google](https://cloud.google.com/docs). They are rich resources that teach you how to use their services, along with numerous code examples.
 
+## Walkthroughs
+See files in this Git folder.
 
-## Walkthroughs & Exercises:
+## Exercises
 
-- **Storage Bucket in Google Cloud:** Go to storage; create a bucket; upload a CSV from your laptop; change the reading permissions so that it's accessible from everyrone (Public); access the csv file from the browser; change back the permissions.
+### Storage in Google Cloud
 
-- **Create a simple cloud function:** Go to Google Cloud Dashboard; Compute>Cloud Functions; Create a simple function in python that accepts one parameter called `company_stock_name` and calls the external API using that parameter in the value of the parameter symbol:
-`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo`
-Return the result of that call with the value for the stock of the company (eg MSFT, ZM, etc)
+* Go to _Storage_ > _Storage_ and create a new bucket.
+* Upload a CSV from your laptop (either an existing one or one that you create for that purpose).
+* Change the permissions so that the file is readable by everyone (i.e., "Public").
+* Access the CSV file from your browser using the public URL.
+* Remove the previously set permission.
+
+### Cloud functions
+* Go _Compute_ > _Cloud Functions_.
+* Create a simple Python function that can be triggered over HTTP.
+   * The function should accept one parameter called `company_stock_name` and call the following external API, using that parameter as the value for the `symbol` parameter: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo. "demo" should be replaced with your own API key, which you can get for free [here](https://www.alphavantage.co/support/#api-key).
+   * The function should return the last recorded value of the company's stock.
+* Call your function using its URL, trying different values for the company name (MSFT, IBM, ZM, etc.) to make sure it works properly.
