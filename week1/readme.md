@@ -5,7 +5,7 @@ Welcome to the first BSA lab! In this week, we will give you a brief overview of
 ## Goals
 
 * Create an account on [Microsoft Azure](https://azure.microsoft.com/en-us/free/students/) and get a student subscription (you will receive a free $100 credit for one year).
-* Create an account on [Google Cloud](https://cloud.google.com). **Note**: For that, you will need to enter your credit card information, but you won't be charged. It is just to verify that you are not a bot. You will receive a free $300 credit valid for one year.
+* Create an account on [Google Cloud](https://cloud.google.com). **Note**: For that, you will need to enter your credit card information, but you won't be charged. It is just to verify that you are not a bot. You will receive a free $300 credit valid for one year. See also [here](https://edu.google.com/programs/students/?modal_active=none) for classes on Google Cloud for students.
 * Do some simple exercises using the cloud.
 
 You are going to use these services all throughout the semester, so make sure that you have created your accounts by the end of the week. After having made an account, try to explore the various features you see in Azure and Google Cloud.
