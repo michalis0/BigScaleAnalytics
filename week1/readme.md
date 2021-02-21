@@ -13,8 +13,15 @@ You are going to use these services all throughout the semester, so make sure th
 **Highly recommended**: If at any point you feel lost while using these services, we encourage you to look at the documentation provided by [Microsoft](https://docs.microsoft.com/en-us/learn/) and [Google](https://cloud.google.com/docs). They are rich resources that teach you how to use their services, along with numerous code examples.
 
 ## Walkthroughs
-See files in this Git folder.
-
+We will start by a walktrhough on Google Cloud services. Important topics that will be covered are:
+* Introduciton to cloud platforms and showing how you can create an account in Google Cloud.
+* introduction to Google Cloud console and have a walk-through of its different sections.
+* introducing the billing section, where you can see your expenses.
+* Going a bit more deep into parts of the console which are more important to us, i,e, Storage, Big Data and AI.
+* Uploading a new dataset in the Google Cloud storage.
+* Introduction to Google Cloud big query. Query a dataset you uploaded (or a public dataset) with SQL.
+* Showing usage examples of natural language and translation and vision APIs in Google Cloud (in case we got enough time).
+For a the walkthrough on Microsoft Azur, check the document in the Git folder.
 ## Exercises
 
 ### Storage in Google Cloud
