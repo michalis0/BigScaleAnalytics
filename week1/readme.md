@@ -4,6 +4,7 @@ Welcome to the first BSA lab! In this week, we will give you a brief overview of
 
 ## Goals
 
+* [Register on Slack](https://join.slack.com/t/bigscaleanalytics2021/shared_invite/zt-kwpnsx1t-bIpVtJfzw6N_82CNFI2jHQ). This will be our main communication channel.
 * Create an account on [Microsoft Azure](https://azure.microsoft.com/en-us/free/students/) and get a student subscription (you will receive a free $100 credit for one year).
 * Create an account on [Google Cloud](https://cloud.google.com). **Note**: For that, you will need to enter your credit card information, but you won't be charged. It is just to verify that you are not a bot. You will receive a free $300 credit valid for one year. See also [here](https://edu.google.com/programs/students/?modal_active=none) for classes on Google Cloud for students.
 * Do some simple exercises using the cloud.
@@ -13,15 +14,18 @@ You are going to use these services all throughout the semester, so make sure th
 **Highly recommended**: If at any point you feel lost while using these services, we encourage you to look at the documentation provided by [Microsoft](https://docs.microsoft.com/en-us/learn/) and [Google](https://cloud.google.com/docs). They are rich resources that teach you how to use their services, along with numerous code examples.
 
 ## Walkthroughs
-We will start by a walktrhough on Google Cloud services. Important topics that will be covered are:
-* Introduciton to cloud platforms and showing how you can create an account in Google Cloud.
-* introduction to Google Cloud console and have a walk-through of its different sections.
-* introducing the billing section, where you can see your expenses.
-* Going a bit more deep into parts of the console which are more important to us, i,e, Storage, Big Data and AI.
-* Uploading a new dataset in the Google Cloud storage.
-* Introduction to Google Cloud big query. Query a dataset you uploaded (or a public dataset) with SQL.
+We will start with a walkthrough of Google Cloud services. Important topics that will be covered are:
+
+* Introduciton to cloud platforms and showing how to create an account on Google Cloud.
+* Introduction to Google Cloud console and have a walkthrough of its different sections.
+* Introducing the billing section, where you can see your expenses.
+* Going a bit more deep into parts of the console which are more important to us, i.e., Storage, Big Data and AI.
+* Uploading a new dataset to the Google Cloud storage.
+* Introduction to Google Cloud BigQuery. Query a dataset you uploaded (or a public dataset) with SQL.
 * Showing usage examples of natural language and translation and vision APIs in Google Cloud (in case we got enough time).
-For a the walkthrough on Microsoft Azur, check the document in the Git folder.
+
+For a walkthrough on Microsoft Azure, check the document in the Git folder.
+
 ## Exercises
 
 ### Storage in Google Cloud
