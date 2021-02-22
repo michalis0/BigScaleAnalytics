@@ -13,10 +13,21 @@ You are going to use these services all throughout the semester, so make sure th
 
 **Highly recommended**: If at any point you feel lost while using these services, we encourage you to look at the documentation provided by [Microsoft](https://docs.microsoft.com/en-us/learn/) and [Google](https://cloud.google.com/docs). They are rich resources that teach you how to use their services, along with numerous code examples.
 
+## Lab Structure
+Hour 1:
+1. Introduction of TAs
+2. Students register to the slack webpage
+3. Walkthroughs to the Cloud services
+4. Small group exercise on Cloud Storage (breakouts 5mins)
+
+Hour2:
+5. Presentation of project
+6. Group exercise on Cloud Functions (breakouts 15mins)
+
 ## Walkthroughs
 We will start with a walkthrough of Google Cloud services. Important topics that will be covered are:
 
-* Introduciton to cloud platforms and showing how to create an account on Google Cloud.
+* Introductιon to cloud platforms and showing how to create an account on Google Cloud.
 * Introduction to Google Cloud console and have a walkthrough of its different sections.
 * Introducing the billing section, where you can see your expenses.
 * Going a bit more deep into parts of the console which are more important to us, i.e., Storage, Big Data and AI.
