@@ -21,6 +21,7 @@ Hour 1:
 4. Small group exercise on Cloud Storage (breakouts 5mins)
 
 Hour2:
+
 5. Presentation of project
 6. Group exercise on Cloud Functions (breakouts 15mins)
 
