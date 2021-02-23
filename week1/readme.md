@@ -42,6 +42,7 @@ We will start with a walkthrough of Google Cloud services. Important topics that
 For a walkthrough of Microsoft Azure, check the document in this Git folder on your own time.
 
 ## Exercises
+These should be conducted in groups of three.
 
 ### Storage in Google Cloud
 
