@@ -44,7 +44,7 @@ For a walkthrough of Microsoft Azure, check the document in this Git folder on y
 ## Exercises
 These should be conducted in groups of three.
 
-### Storage in Google Cloud
+### Exercise 1: Storage in Google Cloud
 
 * From the side menu, go to _Storage_ > _Storage_ and create a new bucket. Besides a unique name, you can keep the default configuration (but read through it anyway to see what kind of options are available to you).
 * Upload a CSV from your laptop (either an existing one or one that you create for that purpose).
@@ -52,7 +52,7 @@ These should be conducted in groups of three.
 * Access the CSV file from your browser using the public URL.
 * Remove the previously set permission.
 
-### Cloud functions
+### Exercise 2: Cloud functions
 
 * From the side menu, go to _Compute_ > _Cloud Functions_.
 * Create a simple Python function that can be triggered over HTTP. Make sure to pick the "Allow unauthenticated invocations" option.
