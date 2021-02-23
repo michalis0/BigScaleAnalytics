@@ -36,13 +36,13 @@ We will start with a walkthrough of Google Cloud services. Important topics that
 * Introduction to Google Cloud BigQuery. Query a dataset you uploaded (or a public dataset) with SQL.
 * Showing usage examples of natural language and translation and vision APIs in Google Cloud (in case we got enough time).
 
-For a walkthrough on Microsoft Azure, check the document in the Git folder.
+For a walkthrough of Microsoft Azure, check the document in this Git folder on your own time.
 
 ## Exercises
 
 ### Storage in Google Cloud
 
-* Go to _Storage_ > _Storage_ and create a new bucket.
+* Go to _Storage_ > _Storage_ and create a new bucket. Besides a unique name, you can keep the default configuration (but read through it anyway to see what kind of options are available to you).
 * Upload a CSV from your laptop (either an existing one or one that you create for that purpose).
 * Change the permissions so that the file is readable by everyone (i.e., "Public").
 * Access the CSV file from your browser using the public URL.
@@ -50,7 +50,14 @@ For a walkthrough on Microsoft Azure, check the document in the Git folder.
 
 ### Cloud functions
 * Go _Compute_ > _Cloud Functions_.
-* Create a simple Python function that can be triggered over HTTP.
+* Create a simple Python function that can be triggered over HTTP. Make sure to pick the "Allow unauthenticated invocations" option.
    * The function should accept one parameter called `company_stock_name` and call the following external API, using that parameter as the value for the `symbol` parameter: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo. "demo" should be replaced with your own API key, which you can get for free [here](https://www.alphavantage.co/support/#api-key).
    * The function should return the last recorded value of the company's stock.
-* Call your function using its URL, trying different values for the company name (MSFT, IBM, ZM, etc.) to make sure it works properly.
+* After having deployed your function, call it using its URL, trying different values for the company name (MSFT, IBM, ZM, etc.) to make sure it works properly.
+
+**Hints**:
+* Build on top of the default code provided by Google; no need to start from scratch!
+* Make sure the "Entry point" matches the name of the Python function in `main.py`.
+* Try the API link above to see what the returned object looks like. It will make it easier for you to understand how to access the desired data from your code. You may also want to look into Python's default [`json`](https://docs.python.org/3/library/json.html) library.
+* There are several ways to make HTTP requests from Python. You can use the [`requests`](https://requests.readthedocs.io/en/master/) library, for example.
+* To go back to your code after having deployed the function, you must go to your list of cloud functions, click the function, then click the "Edit" button at the top. The console will ask you to review the configuration first; you can simply click "Next".
