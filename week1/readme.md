@@ -14,18 +14,21 @@ You are going to use these services all throughout the semester, so make sure th
 **Highly recommended**: If at any point you feel lost while using these services, we encourage you to look at the documentation provided by [Microsoft](https://docs.microsoft.com/en-us/learn/) and [Google](https://cloud.google.com/docs). They are rich resources that teach you how to use their services, along with numerous code examples.
 
 ## Lab Structure
-Hour 1:
+
+**Hour 1**:
+
 1. Introduction of TAs
-2. Students register to the slack webpage
-3. Walkthroughs to the Cloud services
-4. Small group exercise on Cloud Storage (breakouts 5mins)
+2. Students register on the course Slack
+3. Walkthrough of cloud services
+4. Small group exercise on Google cloud storage (5 min. in breakout rooms)
 
-Hour2:
+**Hour 2**:
 
-5. Presentation of project
-6. Group exercise on Cloud Functions (breakouts 15mins)
+5. Presentation of the project
+6. Group exercise on Google cloud functions (15 min. in breakout rooms)
 
 ## Walkthroughs
+
 We will start with a walkthrough of Google Cloud services. Important topics that will be covered are:
 
 * Introductιon to cloud platforms and showing how to create an account on Google Cloud.
@@ -42,14 +45,15 @@ For a walkthrough of Microsoft Azure, check the document in this Git folder on y
 
 ### Storage in Google Cloud
 
-* Go to _Storage_ > _Storage_ and create a new bucket. Besides a unique name, you can keep the default configuration (but read through it anyway to see what kind of options are available to you).
+* From the side menu, go to _Storage_ > _Storage_ and create a new bucket. Besides a unique name, you can keep the default configuration (but read through it anyway to see what kind of options are available to you).
 * Upload a CSV from your laptop (either an existing one or one that you create for that purpose).
 * Change the permissions so that the file is readable by everyone (i.e., "Public").
 * Access the CSV file from your browser using the public URL.
 * Remove the previously set permission.
 
 ### Cloud functions
-* Go _Compute_ > _Cloud Functions_.
+
+* From the side menu, go to _Compute_ > _Cloud Functions_.
 * Create a simple Python function that can be triggered over HTTP. Make sure to pick the "Allow unauthenticated invocations" option.
    * The function should accept one parameter called `company_stock_name` and call the following external API, using that parameter as the value for the `symbol` parameter: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo. "demo" should be replaced with your own API key, which you can get for free [here](https://www.alphavantage.co/support/#api-key).
    * The function should return the last recorded value of the company's stock.
