@@ -60,7 +60,7 @@ For a walkthrough of Microsoft Azure, check the document in this Git folder on y
 * After having deployed your function, call it using its URL, trying different values for the company name (MSFT, IBM, ZM, etc.) to make sure it works properly.
 
 **Hints**:
-* Build on top of the default code provided by Google; no need to start from scratch!
+* Build on top of the default code provided by Google; no need to start from scratch! See also here for using [Cloud functions](https://www.youtube.com/watch?v=sqd6n-V7LTI)
 * Make sure the "Entry point" matches the name of the Python function in `main.py`.
 * Try the API link above to see what the returned object looks like. It will make it easier for you to understand how to access the desired data from your code. You may also want to look into Python's default [`json`](https://docs.python.org/3/library/json.html) library.
 * There are several ways to make HTTP requests from Python. You can use the [`requests`](https://requests.readthedocs.io/en/master/) library, for example.
