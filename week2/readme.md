@@ -14,7 +14,7 @@ In this week, we will do a quick recap of the SQL syntax and see how we can run 
 1. Questions about last week's lab?
 2. Questions about the project?
 3. SQL recap
-4. Basic queries (15 min. in breakout rooms)
+4. Basic queries (10-15 min. in breakout rooms)
 
 **Hour 2**:
 
@@ -32,7 +32,7 @@ In this week, we will do a quick recap of the SQL syntax and see how we can run 
 
 All exercises can be found in the notebook. The queries relate to two datasets:
 
-* World Cup: You will do these queries during the lab.
-* Titanic: These are just extra exercises that you can do on your own if you feel like you need more practice.
+* **World Cup**: You will do these queries during the lab.
+* **Titanic**: These are just extra exercises that you can do on your own if you feel like you need more practice.
 
 Solutions to both series of questions will be released at the end of the week.
