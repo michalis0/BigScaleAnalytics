@@ -9,7 +9,7 @@ Repository for the Big-Scale Analytics Course - University of Lausanne
 - Week 6: NoSQL - Text Analytics - Elasticsearch
 - Week 7: Text Analytics - Elasticsearch
 - Week 8: Building a web service with Python Flask
-- Week 9: Association Rules 1
+- Week 9: Association Rules
 - Week 10: Docker 
 - Week 11: Neural Networks
 - Week 12: Graph Analytics
