@@ -26,7 +26,7 @@ In this week, we will cover Google BigQuery more in depth and see how we can acc
 
 ## Walkthrough
 
-The walkthrough will be done directly on the Google BigQuery console, as well as on this week's notebook.
+The walkthrough will be done directly on the Google BigQuery console, as well as on this week's notebook. We have also added some slides containing all the information you need to get you started in BigQuery.
 
 **Topics**:
 
