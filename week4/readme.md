@@ -29,7 +29,20 @@ In case we finish the lab earlier, students can use the remaining time to work o
 
 * What is Cloud Dataprep and why use such a tool?
 * Accessing Dataprep: From the side menu of your Google Cloud console, go to _Big Data_ > _Dataprep_.
-* Using Dataprep: Flows, recipes, steps
+* **Using Dataprep**:
+  * Data upload
+  * Data exploration
+  * Flows, recipes, steps
+* **Transformations**:
+  * Changing data types
+  * Renaming/moving/deleting columns
+  * Handling missing values
+  * Formatting strings
+  * Nesting/splitting
+  * Extraction
+  * Substitution
+  * Computation
+  * And many more...
 
 ## Exercises
 
