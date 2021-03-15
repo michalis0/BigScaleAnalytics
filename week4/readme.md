@@ -13,7 +13,7 @@ Just like data collection, data preparation can be a very time-consuming task fo
 
 1. Questions about last week's lab?
 2. Questions about the project?
-3. Brief overview of data cleaning
+3. Brief recap of data cleaning
 4. Cloud Dataprep walkthrough
 
 **Hour 2**:
@@ -25,11 +25,9 @@ In case we finish the lab earlier, students can use the remaining time to work o
 
 ## Walkthroughs
 
-**Data cleaning**: The role of data cleaning & quality dimensions
-
 **Cloud Dataprep**:
 
-* What is Cloud Dataprep?
+* What is Cloud Dataprep and why use such a tool?
 * Accessing Dataprep: From the side menu of your Google Cloud console, go to _Big Data_ > _Dataprep_.
 * Using Dataprep: Flows, recipes, steps
 
