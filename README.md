@@ -5,7 +5,7 @@ Repository for the Big-Scale Analytics Course - University of Lausanne
 - Week 2: [SQL with Python (Python+SQLite)](week2)
 - Week 3: [SQL on the Cloud (BigQuery)](week3)
 - Week 4: [Data Cleaning and Prep](week4)
-- Week 5: Entity Resolution / Duplicate detection
+- Week 5: [Entity Resolution / Duplicate detection](week5)
 - Week 6: NoSQL - Text Analytics - Elasticsearch
 - Week 7: Text Analytics - Elasticsearch
 - Week 8: Building a web service with Python Flask
