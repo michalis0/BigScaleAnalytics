@@ -1,4 +1,4 @@
-# Week 3: Google BigQuery
+# SQL on the Cloud: Google BigQuery
 
 In this week, we will cover Google BigQuery more in depth and see how we can access it from an iPython notebook.
 
