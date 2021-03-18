@@ -30,7 +30,7 @@ In this week, we will do a quick recap of the SQL syntax and see how we can run 
 2. GROUP BY's
 3. JOIN's
 
-**SQL in Python**: Open this week's notebook `bsa_lab_week_2_exercises.ipynb` in Google Colab (click on the notebook, then click on the "Open in Colab" button.
+**SQL in Python**: Open this week's notebook [`bsa_lab_week_2_exercises.ipynb`](bsa_lab_week_2_exercises.ipynb) in Google Colab (click on the notebook, then click on the "Open in Colab" button.
 
 ## Exercises
 
