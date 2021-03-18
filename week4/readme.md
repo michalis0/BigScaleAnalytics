@@ -1,4 +1,4 @@
-Data cleaning using Google Cloud Dataprep
+# Data cleaning using Google Cloud Dataprep
 
 Just like data collection, data preparation can be a very time-consuming task for data scientists. In this week, we will see how to use a dedicated tool, Cloud Dataprep (by Trifacta), to make data exploration and cleaning more intuitive and eventually faster.
 
