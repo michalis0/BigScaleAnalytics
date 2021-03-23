@@ -1,4 +1,4 @@
-# Week 5: Entity resolution (or record linkage, or deduplication)
+# Entity resolution (or record linkage, or deduplication)
 
 This week, we are going to work on entity resolution. There are plenty of different names for this topic. We would highly recommend
 you take a look at the [Wikipedia](https://en.wikipedia.org/wiki/Record_linkage) page. 
