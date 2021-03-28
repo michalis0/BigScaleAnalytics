@@ -2,6 +2,8 @@
 
 This week, you will learn about Elastic Cloud, a platform which enables search and analytics for both structured and non-structured data.
 
+If you want to broaden your knowledge beyond this lab, the Elastic website provides many [video tutorials](https://www.elastic.co/videos/).
+
 ## Goals
 
 * Become aware of the various components of the Elastic stack and their respective roles
