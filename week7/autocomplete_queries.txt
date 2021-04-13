@@ -1,0 +1,118 @@
+##### CREATE INDEX (SIMPLE)
+
+PUT books
+{
+  "settings": {},
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text"
+      }
+    }
+  }
+}
+
+
+##### CREATE INDEX (AUTOCOMPLETE)
+
+PUT books
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "autocomplete": {
+          "tokenizer": "autocomplete_tokenizer",
+          "filter": [
+            "lowercase"
+          ]
+        },
+        "autocomplete_search": {
+          "tokenizer": "lowercase"
+        }
+      },
+      "tokenizer": {
+        "autocomplete_tokenizer": {
+          "type": "edge_ngram",
+          "min_gram": 2,
+          "max_gram": 15,
+          "token_chars": [
+            "letter",
+            "digit"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text",
+        "analyzer": "autocomplete",
+        "search_analyzer": "autocomplete_search"
+      }
+    }
+  }
+}
+
+
+##### ADD DOCUMENTS
+
+POST books/_bulk
+{ "index" : { "_index" : "books", "_id" : "1" } }
+{"title": "Much Ado about Nothing"}
+{ "index" : { "_index" : "books", "_id" : "2" } }
+{"title": "Timon of Athens"}
+{ "index" : { "_index" : "books", "_id" : "3" } }
+{"title": "Titus Andronicus"}
+{ "index" : { "_index" : "books", "_id" : "4" } }
+{"title": "Romeo and Juliet"}
+{ "index" : { "_index" : "books", "_id" : "5" } }
+{"title": "Antony and Cleopatra"}
+{ "index" : { "_index" : "books", "_id" : "6" } }
+{"title": "Richard II"}
+{ "index" : { "_index" : "books", "_id" : "7" } }
+{"title": "Richard III"}
+{ "index" : { "_index" : "books", "_id" : "8" } }
+{"title": "Merry Wives of Windsor"}
+{ "index" : { "_index" : "books", "_id" : "9" } }
+{"title": "Merchant of Venice"}
+{ "index" : { "_index" : "books", "_id" : "10" } }
+{"title": "Julius Caesar"}
+
+
+##### DISPLAY DOCUMENTS
+
+GET books/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+##### MATCH QUERY
+
+GET books/_search
+{
+  "query": {
+    "match": {
+      "title": {
+        "query": "tim"
+      }
+    }
+  }
+}
+
+
+##### PREFIX QUERY
+
+GET books/_search
+{
+  "query": {
+    "prefix": {
+      "title": {
+        "value": "tim"
+      }
+    }
+  }
+}
