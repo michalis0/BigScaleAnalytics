@@ -11,23 +11,21 @@ This week, we will see how to leverage Elasticsearch's "Edge n-gram" tokenizer t
 
 ## Lab Structure
 
-**Hour 1**:
-
 1. Questions about the assignment?
 2. Questions about milestone 2 of the project?
 3. Autocompletion in Elasticsearch
 4. Exercise: Creating a Kibana dashboard
 
-**Hour 2**:
-
-Groups can use the second hour to finish the deliverable for milestone 2.
+Students can use the remainder of the afternoon to finish their deliverable for milestone 2.
 
 ## Walkthroughs
 
-**Autocompletion** (aka incremental search):
+### Autocompletion in Elasticsearch
 
-* The simple, suboptimal approach: `prefix` queries
-* The advanced, more powerful approach: Edge n-grams
+Autocompletion is also known as "incremental search" or "search-as-you-type". Here are two approaches you can implement this in Elasticsearch:
+
+* The simple, suboptimal approach: **`prefix` queries**
+* The advanced, more powerful approach: **Edge n-grams**
 
 ## Exercises
 
