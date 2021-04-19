@@ -3,7 +3,7 @@ import os
 from joblib import dump, load
 from sklearn.linear_model import LogisticRegressionCV, LogisticRegression
 import pandas as pd
-from preprocess import preprocess
+from text_preprocess import spacy_tokenizer, clean_text
 app = Flask(__name__)
 
 @app.route('/')
@@ -16,19 +16,16 @@ def result():
         result = request.form
         print(result.to_dict())
         res = result.to_dict()
-        res["tenure"] = int(res["tenure"])
-        res["MonthlyCharges"] = float(res["MonthlyCharges"])
-        df = pd.DataFrame([res])
-        # apply the preprocessing (one hot encoding, etc to the input)
-        sample = preprocess(df)
+        res["review"] = clean_text(res["review"])
+        df = pd.Series([res["review"]])
         # load the model
-        model = load('LR.joblib')
-        pred = model.predict(sample)
+        model = load('text_classifier.joblib')
+        pred = model.predict(df)
         print(pred)
         if pred[0] == 1:
-            data = {"churn": "Yes"}
+            data = {"Sentiment": "positive"}
         else:
-            data = {"churn": "No"}
+            data = {"Sentiment": "Negative"}
         return render_template("result.html", data=data, result=result)
 
 if __name__ == '__main__':
