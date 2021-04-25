@@ -8,9 +8,8 @@ Repository for the Big-Scale Analytics Course - University of Lausanne
 - Week 5: [Entity Resolution / Duplicate detection](week5)
 - Week 6: [NoSQL - Text Analytics - Elasticsearch](week6)
 - Week 7: [Text Analytics - Elasticsearch](week7)
-- Week 8: Building a web service with Python Flask
-- Week 9: Association Rules
-- Week 10: Docker 
+- Week 8: [Building a web service with Python Flask](week8)
+- Week 9: Docker
+- Week 10: Association Rules
 - Week 11: Neural Networks
 - Week 12: Graph Analytics
-
