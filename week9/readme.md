@@ -6,20 +6,20 @@ We will learn about Docker and its advantages. We will answer to the following q
 
 ## Goals
 
-1. Understanding the differece between container and image
+1. Understand the difference between a container and an image
 2. How to run a Docker image
 3. Practicing some useful Docker commands
 
 # Part 2: Building a docker image
 
-We will learn how to build a docker image. We will try to dockerize the Flask app we created in week 9.
+We will learn how to build a docker image. We will "dockerize" the Flask app we created in a previous week.
 
 ## Goals
 
 1. Understand concepts in building a docker image
 2. How to create a dockerfile
 3. How to build an image
-4. how to publish a container's port to the host
+4. How to publish a container's port to the host
 
 ### Related tutorial
 
