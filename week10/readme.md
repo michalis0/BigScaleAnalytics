@@ -11,9 +11,10 @@ In this week's lab, we are going to revise the notions of support, confidence an
 
 1. Questions about last week's lab?
 2. Questions about the project?
-3. Exercise: Calculate support and confidence
-4. Walkthrough: Mining association rules in Python
-5. Exercise: Your turn! 
+3. Presentation of the AICrowd competition for the project
+4. Exercise: Calculate support and confidence
+5. Walkthrough: Mining association rules in Python
+6. Exercise: Your turn! 
 
 In case we finish the lab earlier, students can use the remaining time to work on their project.
 
