@@ -11,7 +11,7 @@ In this week's lab, we are going to revise the notions of support, confidence an
 
 1. Questions about last week's lab?
 2. Questions about the project?
-3. Presentation of the AICrowd competition for the project
+3. Presentation of the [AICrowd challenge](https://www.aicrowd.com/challenges/final-project-of-big-scale-analytics-2021) related to the project
 4. Exercise: Calculate support and confidence
 5. Walkthrough: Mining association rules in Python
 6. Exercise: Your turn! 
