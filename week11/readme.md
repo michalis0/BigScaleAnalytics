@@ -14,6 +14,7 @@ In this week's lab, we are to revise the structure and parameters of artificial 
 3. Walkthrough: playing on the Playground
 4. Group exercise: solve a problem on the Playground (10 minutes)
 5. Walkthrough: regression and classification in PyTorch
+6. Group exercise: build a neural network in PyTorch
 
 In case we finish the lab earlier, students can use the remaining time to work on their project.
 
