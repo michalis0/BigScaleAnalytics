@@ -35,3 +35,8 @@ For the second part, we will use the two notebooks found in this folder (regress
 ### A neural network for the "spiral" dataset
 
 On the Playground, under classification problems, you will find a dataset where the data points form a spiral. Try to adjust the parameters of the neural network in order to predict the classes with minimal loss.
+
+### Building a regression model in Pytorch
+
+In this exrecise you will build a regression model with 3 hidden layers in pytorch and compare it with a single layer network. Also you will be able to compare Adam optimizer with SGD.
+
