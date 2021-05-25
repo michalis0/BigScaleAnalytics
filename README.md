@@ -12,4 +12,4 @@ Repository for the Big-Scale Analytics Course - University of Lausanne
 - Week 9: [Docker](week9)
 - Week 10: [Association Rules](week10)
 - Week 11: [Neural Networks](week11)
-- Week 12: Graph Analytics
+- Week 12: [Graph Analytics](week12)
