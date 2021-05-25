@@ -9,3 +9,4 @@ you saw in the lecture on simple graphs. The agenda of this lab will be:
 4. Computing the number of connected components in a graph.
 5. Community detection.
 
+* The material of this lab is inspired from the Applied Data Analysis course from EPFL ([link to the tutorial of the course](https://github.com/epfl-ada/2020/tree/master/Tutorials)).
